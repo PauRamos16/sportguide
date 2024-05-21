@@ -12,6 +12,7 @@
    ========================================================================== */
 
 html {
+  background: pink;
   color: #222;
   font-size: 1em;
   line-height: 1.4;
@@ -83,6 +84,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 
 /* ==========================================================================
    Helper classes
