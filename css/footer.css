@@ -1,0 +1,83 @@
+/* footer custom */
+footer.footer{
+	background-color: #fff;
+	padding: 55px 20px 40px 20px;
+}
+.footer__wrap{
+	max-width: 1366px;
+	margin:auto;
+}
+.footer__section{
+	font-size: 17px;
+	line-height: 21px;
+	font-weight: 500;
+	color:#333;
+	margin:15px 15px;
+}
+.footer__list{
+	color: #3FA21C;
+}
+.footer__list li{
+	color: #3FA21C;
+}
+.footer__list li a{
+	font-size: 17px;
+	line-height: 27px;
+	font-weight: 300;
+	color: #000;
+}
+.footer__list li a:hover{
+	color: #3FA21C;
+	font-weight: 500;
+}
+
+/* eslògan */
+.slogan__wrap{
+  max-width: 300px;
+  font-size: 27px;
+  line-height: 30px;
+  margin: 0;
+}
+.slogan__wrap strong{
+  padding: 15px 5px;
+  display: block;	
+}
+/* xarxes socials */
+.xarxa__list{
+ list-style: none;
+ padding: 0;
+}
+.xarxa__item{
+	display: inline-block;
+	padding: 5px;
+}
+
+.xarxa__link{
+	display: block;
+	border-radius: 25px;
+}
+.xarxa__link:hover{
+	background-color: #C9F3B9;
+}
+.xarxa__image{
+	width: 33px;
+}
+/* copyrigth and contact */
+.copyright__wrap{
+	margin:55px 0 20px 0;
+	font-size: 16px;
+	line-height: 21px;
+}
+.copyright__text{
+	font-size: 13px;
+	line-height: 20px;
+	margin:3px 0;
+}
+.contact__mail{
+	text-decoration: underline;
+	color:#333;
+	font-weight: 500;
+}
+.contact__mail:hover{
+	color:#3FA21C;
+}

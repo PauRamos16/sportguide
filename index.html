@@ -4,7 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>El web SportGuide | Reus</title>
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/espais.css">
+  <link rel="stylesheet" href="css/novetats.css">
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
 
@@ -13,7 +19,7 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.png" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
 
@@ -23,15 +29,24 @@
 
 <body>
 
+ 
+ <main>
 
-  
+    <!-- header -->
+    <div w3-include-html="include/header.html"></div>
+    <!-- end header -->
 
-  <!-- Add your site or application content here -->
-  <p>Hello PAU world! This is HTML5 Boilerplate.</p>
-  <!-- Footer -->
-  <div w3-include-html="include/footer.html"></div>
-  <!-- end footer -->
+    <!-- section content -->
+    <div class="section__content">
+      <div w3-include-html="include/content-home.html"></div>
+    </div>
+    <!-- end section -->
 
+    <!-- Footer -->
+    <div w3-include-html="include/footer.html"></div>
+    <!-- end footer -->
+
+  </main>
   <!-- ini scripts -->
   <script src="https://www.w3schools.com/lib/w3.js"></script>
   <script src="js/app.js"></script>

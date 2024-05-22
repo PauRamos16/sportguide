@@ -1,0 +1,49 @@
+/* novetats custom */
+.novetat__wrap{
+
+}
+.novetat__item{
+
+}
+.novetat__content{
+	border:2px solid #f1f1f1;
+	background-color: #fff;
+	padding: 10px;
+	margin:10px;
+}
+.novetat__image{
+	box-shadow: 3px 3px 3px #ccc;
+	object-fit: cover;
+	object-position: center;
+ 	height: 150px;
+ 	width: 100%;
+}
+.novetat__category{
+  background-color: #C9F3B9;
+  display: inline-block;
+  padding: 2px 10px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.novetat__time{
+  display: inline-block;
+  padding: 2px;
+  margin: 10px 0;
+  font-size: 13px;
+}
+.novetat__title{
+
+}
+.novetat__title a{
+	text-decoration: none;
+	font-size: 23px;
+	line-height: 25px;
+	color:#111;
+}
+.novetat__title a:hover{
+	text-decoration: underline;
+	color:#3FA21C;
+}
+.novetat__link{
+  	display: block;
+}

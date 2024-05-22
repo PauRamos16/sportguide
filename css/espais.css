@@ -1,0 +1,75 @@
+/* espais category and entity custom */
+.category__item{
+	text-align: center;
+	color:#fff;
+	margin:5px;
+}
+.category__link{
+	background-color: #3FA21C;
+	text-decoration: none;
+	padding: 30px 20px;
+	display: block;
+}
+.category__link:hover{
+background-color: #378C18;
+}
+.category__image{
+	width: 70px;
+}
+
+.category__title{
+	color:#fff;
+}
+
+.espai__item{
+	color:#000;
+	margin:0;
+	padding: 0;
+}
+.espai__content{
+	border:1px solid #f1f1f1;
+	background-color: #C9F3B9;
+	text-decoration: none;
+	padding: 20px 20px;
+	display: block;
+	margin:10px;
+}
+.espai__content:hover{
+	background-color: #fff;
+}
+.espai__link{
+	text-decoration: none;
+	color:#000;
+}
+.espai__link:hover{
+	text-decoration: underline;
+    color: #378C18;
+}
+.espai__image{
+	width: 15px;
+}
+
+.espai__icon{
+	width: 15px;
+	filter: invert(1);
+}
+.espai__category{
+  background-color: #f1f1f1;
+  display: inline-block;
+  padding: 2px 10px;
+  margin:  0;
+  font-size: 14px;
+}
+.espai__type{
+  background-color: #f1f1f1;;
+  display: inline-block;
+  padding: 2px 10px;
+  margin:  0;
+  font-size: 14px;
+}
+.espai__title{
+	text-decoration: none;
+	font-size: 23px;
+	line-height: 25px;
+	color:#111;
+}
