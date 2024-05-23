@@ -120,7 +120,7 @@ footer.page__footer{
 	padding: 5px 20px;
 	height: 50px;
 	width: 100%;
-	margin:auto -20px;
+	margin:auto;
 }
 
 .search__input::placeholder{

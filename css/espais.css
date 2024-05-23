@@ -9,6 +9,7 @@
 	text-decoration: none;
 	padding: 30px 20px;
 	display: block;
+	min-width: 160px;
 }
 .category__link:hover{
 background-color: #378C18;
