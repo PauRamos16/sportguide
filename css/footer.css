@@ -64,7 +64,8 @@ footer.footer{
 }
 /* copyrigth and contact */
 .copyright__wrap{
-	margin:55px 0 20px 0;
+	max-width: 1366px;
+	margin:55px auto 20px auto;
 	font-size: 16px;
 	line-height: 21px;
 }

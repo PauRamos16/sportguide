@@ -12,10 +12,15 @@
    ========================================================================== */
 
 html {
+  box-sizing: border-box;
   background: #f7f7f7;
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /*
@@ -63,6 +68,25 @@ video {
   vertical-align: middle;
 }
 
+.iframe__wrap {
+  margin-top:20px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  border:0;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.iframe__responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 /*
  * Remove default fieldset styles.
  */
@@ -252,5 +276,10 @@ body {
   h3 {
     page-break-after: avoid;
   }
+}
+
+input[required] + label:after {
+  content: '*';
+  color: red;
 }
 

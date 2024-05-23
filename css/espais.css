@@ -32,7 +32,8 @@ background-color: #378C18;
 	text-decoration: none;
 	padding: 20px 20px;
 	display: block;
-	margin:10px;
+	margin:5px;
+	min-height: 165px;
 }
 .espai__content:hover{
 	background-color: #fff;

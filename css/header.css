@@ -12,6 +12,16 @@ header.header{
 	position: relative;
 	max-width: 400px;
 }
+.logo__wrap a{
+	text-decoration: none;
+	color:#000;
+}
+.logo__wrap a:hover{
+	color:#444;
+}
+.logo__wrap a:hover strong{
+	color:#3FA21C;
+}
 .logo{
  font-size: 45px;
  line-height: 45px;

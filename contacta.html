@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacta | SportGuide | Reus</title>
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/espais.css">
+  <link rel="stylesheet" href="css/novetats.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.png" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+ <main>
+    <!-- header -->
+    <div w3-include-html="include/header.html"></div>
+    <!-- end header -->
+
+    <!-- section content -->
+    <div class="section__content">
+      <article>
+        <header class="page__header">
+          <h1 class="page__title">Contacta</h1>
+          <div class="slider__wrap">
+            <img class="slider__image" src="img/slider/slider-2.jpg">
+            <img class="slider__image" src="img/slider/slider-1.jpg">
+            <img class="slider__image" src="img/slider/slider-6.jpg">
+          </div> 
+        </header>
+        <div class="page__content">
+
+          <h3>Informació de contacte</h3>
+          <p> 
+            <b>Telèfon:</b> 977 772 166<br>
+            <b>A/e:</b> <a href="mailto://hola@sportguide.cat" target="_blank">hola@sportguide.cat</a><br>
+          </p>
+        </div>
+
+        <form  class="page__form" action="https://formspree.io/f/{form_id}" method="post">
+          <fieldset>
+            <label for="name">Nom</label>
+            <input name="user_name" id="user_name" type="text" placeholder="Escriu el teu nom..." required>
+            <label for="email">Adreça electrònica</label>
+            <input name="user_email" id="user_email" placeholder="Escriu el teu correu..." type="email" required>
+            <label for="user_scope">Àmbit o temàtica:</label>
+            <select id="user_scope" name="cars" required>
+              <option value="">- sense opció-</option>
+              <option value="audi">Gimnasos</option>
+              <option value="piscines">Piscines</option>
+              <option value="tenis-padel">Tenis i padel</option>
+              <option value="fiat">Espais verds</option>
+              <option value="audi">Poliesportius</option>
+            </select>
+            <label for="user_contact_type">Tipus de missatge:</label>
+            <select id="user_contact_type" name="user_contact_type" required>
+              <option value="">- sense opció-</option>
+              <option value="consulta">Suggeriment i consulta</option>
+              <option value="alta">Alta d'espai esportiu</option>
+              <option value="incidenca">Incidència</option>
+            </select>
+            <label for="message">Missatge</label>
+            <textarea rows="5" name="message" id="message" placeholder="Escriu el teu missatge..." required=""></textarea>
+          </fieldset>
+          
+          <button type="submit">Enviar</button>
+        </form>
+
+        <footer class="page__footer">
+          <div class="user__wrap">
+            <img class="user__avatar" src="img/social/iconmonstr-user.svg">
+            <div class="user__content">
+              <span class="user__name">Pau Ramos Llauradó</span>
+              <span class="user__text">Geògraf i cofundador de SportGuide</span>
+            </div>
+          </div>
+        </footer>
+      </article>
+
+    <!-- Aside -->
+    <div w3-include-html="include/aside-news.html"></div>
+    <!-- end aside -->
+
+    </div>
+    <!-- end section -->
+
+    <!-- Footer -->
+    <div w3-include-html="include/footer.html"></div>
+    <!-- end footer -->
+
+  </main>
+  <!-- ini scripts -->
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script src="js/app.js"></script>
+  <!-- end scripts -->
+
+</body>
+
+</html>

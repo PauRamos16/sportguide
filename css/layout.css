@@ -2,9 +2,14 @@
 section.section{
   margin:100px 0;
 }
+aside.section{
+  margin:100px 0;
+}
 .section__content{
-   padding: 20px;
-   min-height: 750px;
+  max-width: 1366px;
+  padding: 20px;
+  min-height: 750px;
+  margin:auto;
 }
 
 .flex__wrap{
