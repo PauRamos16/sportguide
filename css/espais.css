@@ -17,6 +17,10 @@ background-color: #378C18;
 .category__image{
 	width: 70px;
 }
+.category__image--piscina{
+	filter: invert(1);
+	width: 70px;
+}
 
 .category__title{
 	color:#ffffff;
@@ -54,6 +58,10 @@ background-color: #378C18;
 .espai__icon{
 	width: 15px;
 	filter: invert(1);
+}
+.espai__icon--piscina{
+	width: 15px;
+	
 }
 .espai__category{
   background-color: #f1f1f1;
