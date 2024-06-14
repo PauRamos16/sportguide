@@ -308,7 +308,7 @@
       </Placemark>
       <Placemark>
         <name>Tennis Pàdel Reus Deportiu</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGHsNbK71Vh-LDmIFwo6afe1K9Bj3Vrk5TqqJPUEC2FbuqhQPzlimS0M4_JYIJ2HmV9okGRK8uALdkp6JIHrAmwcU0JKr4SU2TDJdTRsrME08ep6aBz0YYLcvq5G8FR5JYcxHcQnF7H7Jd4hfiU45XabztXgV5Yy8Mtn-RboCJ130MKGn5oadVoQO1lkEbr1O6-4LhIr7Iiv2pszGy8lNO29_ZugPFsU-P6sL8p1umJv9RrOzvrb5s2rIA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img class="map__image" src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGHsNbK71Vh-LDmIFwo6afe1K9Bj3Vrk5TqqJPUEC2FbuqhQPzlimS0M4_JYIJ2HmV9okGRK8uALdkp6JIHrAmwcU0JKr4SU2TDJdTRsrME08ep6aBz0YYLcvq5G8FR5JYcxHcQnF7H7Jd4hfiU45XabztXgV5Yy8Mtn-RboCJ130MKGn5oadVoQO1lkEbr1O6-4LhIr7Iiv2pszGy8lNO29_ZugPFsU-P6sL8p1umJv9RrOzvrb5s2rIA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#poly-FFEA00-5101-77</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -335,7 +335,7 @@
       </Placemark>
       <Placemark>
         <name>Tennis Pàdel Reus Deportiu</name>
-        <description><![CDATA[<img src="js/data/tenis/images/tennis-2.png" width="250px" width="auto" />]]></description>
+        <description><![CDATA[<img class="map__image" src="js/data/tenis/images/tennis-2.png" width="250px" width="auto" />]]></description>
         <styleUrl>#icon-1707-FFEA00</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -350,7 +350,7 @@
       </Placemark>
       <Placemark>
         <name>Pàdel indoor Reus</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuG5t3LvRa8DqG9xEFyDGdecCi92GYiMkeczOz1sVaHZ_OxBZCUKy_CsO6_WfNm8oNjER3cW64mVwF5qj673i_ksMbZXWA8MRORBRdBIikwB0h0ruGSV3vBWr_3TJ8ZggcHsfX7o1Wy7LbsqpqUHqL-2eg5-b9ad55LUeo_6T3dpUo-QQAfzpCAcyp3XXFUCgcT_xlkSDrJR3rnvIP7O8Zgit0RHKNq2AzDuPvtmMASoBobKsgeH4xX-emE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img class="map__image" src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuG5t3LvRa8DqG9xEFyDGdecCi92GYiMkeczOz1sVaHZ_OxBZCUKy_CsO6_WfNm8oNjER3cW64mVwF5qj673i_ksMbZXWA8MRORBRdBIikwB0h0ruGSV3vBWr_3TJ8ZggcHsfX7o1Wy7LbsqpqUHqL-2eg5-b9ad55LUeo_6T3dpUo-QQAfzpCAcyp3XXFUCgcT_xlkSDrJR3rnvIP7O8Zgit0RHKNq2AzDuPvtmMASoBobKsgeH4xX-emE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#poly-FFEA00-4301-112</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -374,7 +374,7 @@
       </Placemark>
       <Placemark>
         <name>Pàdel Indoor Reus</name>
-        <description><![CDATA[<img src="js/data/tenis/images/tennis-3.png" width="250px" width="auto" />]]></description>
+        <description><![CDATA[<img class="map__image" src="js/data/tenis/images/tennis-3.png" width="250px" width="auto" />]]></description>
         <styleUrl>#icon-1707-FFEA00</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -389,7 +389,7 @@
       </Placemark>
       <Placemark>
         <name>Padelx4 Reus</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuFk31NH_derd7T5b6eKY3T4Y8VnuUOo5NrTP12v5Sa5aBxJmehFBFLgu0S6QfP6C9ix5_UbIhW80VV_XgdVdmb3f0vr4tv5Jz5zX9dXUp-CD8sO2G9cx6raOWwJMrtsrF_VvSqhuEH_U2FEKhwvO9xkYd4DoODMKs5yxgS92jJod2YHLV-Lm4uL8h4bJUQbrbE_gvoqUJZcJhQUAsSlBd6kJewvS9GcEWXbq4yVS6rAqhHt99mke0yG-UM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img class="map__image" src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuFk31NH_derd7T5b6eKY3T4Y8VnuUOo5NrTP12v5Sa5aBxJmehFBFLgu0S6QfP6C9ix5_UbIhW80VV_XgdVdmb3f0vr4tv5Jz5zX9dXUp-CD8sO2G9cx6raOWwJMrtsrF_VvSqhuEH_U2FEKhwvO9xkYd4DoODMKs5yxgS92jJod2YHLV-Lm4uL8h4bJUQbrbE_gvoqUJZcJhQUAsSlBd6kJewvS9GcEWXbq4yVS6rAqhHt99mke0yG-UM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#poly-FFEA00-5001-97</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -414,7 +414,7 @@
       </Placemark>
       <Placemark>
         <name>Padelx4 Reus</name>
-        <description><![CDATA[<img src="js/data/tenis/images/tennis-4.png" width="250px" width="auto" />]]></description>
+        <description><![CDATA[<img class="map__image" src="js/data/tenis/images/tennis-4.png" width="250px" width="auto" />]]></description>
         <styleUrl>#icon-1707-FFEA00</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -429,7 +429,7 @@
       </Placemark>
       <Placemark>
         <name>Winner Sport</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuHm8NhIsHkwDGpq6U90tnVsJCGPkbGjcKZul2x7LH8MJXaj-jr7KF-B1twYIqu7kE1LczzpMjwYbpUoS7R6-W0k8tcjp8xIO37d7WviuBX0en5FykRDd5Wunw-VxNdTYdZqfsztjc4L4zo5-jURpFq-vu9K10IMKf6Q_V_7Klr5Tt5lYd5MFRS6_SRXE5N2vh30Vu91zL-xCTUF8FmrYE6n5hR8KU8jliWBv0lmFSM3X_yaOVMnaSDnGro?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img class="map__image" src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuHm8NhIsHkwDGpq6U90tnVsJCGPkbGjcKZul2x7LH8MJXaj-jr7KF-B1twYIqu7kE1LczzpMjwYbpUoS7R6-W0k8tcjp8xIO37d7WviuBX0en5FykRDd5Wunw-VxNdTYdZqfsztjc4L4zo5-jURpFq-vu9K10IMKf6Q_V_7Klr5Tt5lYd5MFRS6_SRXE5N2vh30Vu91zL-xCTUF8FmrYE6n5hR8KU8jliWBv0lmFSM3X_yaOVMnaSDnGro?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#poly-FFEA00-7201-115</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -454,7 +454,7 @@
       </Placemark>
       <Placemark>
         <name>Winner Sport</name>
-        <description><![CDATA[<img src="js/data/tenis/images/tennis-5.png" width="250px" width="auto" />]]></description>
+        <description><![CDATA[<img class="map__image" src="js/data/tenis/images/tennis-5.png" width="250px" width="auto" />]]></description>
         <styleUrl>#icon-1707-FFEA00</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -469,7 +469,7 @@
       </Placemark>
       <Placemark>
         <name>Tennis i Pàdel Reus Ploms</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGy1r-grDMXf_jioZ4wS32ACGy1FV5kgGgdt1KRbJeVcvv3ldWPGnFNt_nPVI4iEW971VHSlg8rKbyQN5w_RcvfoMOR1CMP69rqh7w0EuLiFX2Rmro33W3LeI20EXRGrKWJdODa2l4ZonDTE7pjaGvtTk0CwzJWAuSi2ResdSIT7bRvr0vpwe7x2VozSWJRFH9Cp6MipH2V6xwAvoBiDxhxaXOEtVUB6HdnhdwGm2ROzrw5RcI5WxGQ1X0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img class="map__image" src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGy1r-grDMXf_jioZ4wS32ACGy1FV5kgGgdt1KRbJeVcvv3ldWPGnFNt_nPVI4iEW971VHSlg8rKbyQN5w_RcvfoMOR1CMP69rqh7w0EuLiFX2Rmro33W3LeI20EXRGrKWJdODa2l4ZonDTE7pjaGvtTk0CwzJWAuSi2ResdSIT7bRvr0vpwe7x2VozSWJRFH9Cp6MipH2V6xwAvoBiDxhxaXOEtVUB6HdnhdwGm2ROzrw5RcI5WxGQ1X0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#poly-FFEA00-4901-117</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -497,7 +497,7 @@
       </Placemark>
       <Placemark>
         <name>Tennis i Pàdel Reus Ploms</name>
-        <description><![CDATA[<img src="js/data/tenis/images/tennis-6.png" width="250px" width="auto" />]]></description>
+        <description><![CDATA[<img class="map__image" src="js/data/tenis/images/tennis-6.png" width="250px" width="auto" />]]></description>
         <styleUrl>#icon-1707-FFEA00</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -512,7 +512,7 @@
       </Placemark>
       <Placemark>
         <name>Pàdel Manyanet Reus</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGfZlmub7JPPzhs-Dg8-I9_ylQYjN7w4wY9Q7PXGBlMZKnTXHONLG9GXUFbpG4estrcZx5Kf1l2SXSkE-pUw38o00Hy-ni4IIKHSgN4drZfGg1jNxYIK2LyF_Y2wmcd8TU1R_0aFsFZnyWUbOgPrH9xK6uiMx_7bD9eF2pAoruFvMkPNATIkub_0HLqf9fmu5ZHISNhWpNal6vVI7Mqilm3F4nUF0Sh9QDVkD0bQN8AtKWJeLqh0vyoNaA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <description><![CDATA[<img class="map__image" src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGfZlmub7JPPzhs-Dg8-I9_ylQYjN7w4wY9Q7PXGBlMZKnTXHONLG9GXUFbpG4estrcZx5Kf1l2SXSkE-pUw38o00Hy-ni4IIKHSgN4drZfGg1jNxYIK2LyF_Y2wmcd8TU1R_0aFsFZnyWUbOgPrH9xK6uiMx_7bD9eF2pAoruFvMkPNATIkub_0HLqf9fmu5ZHISNhWpNal6vVI7Mqilm3F4nUF0Sh9QDVkD0bQN8AtKWJeLqh0vyoNaA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
         <styleUrl>#poly-FFEA00-5901-110</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -536,7 +536,7 @@
       </Placemark>
       <Placemark>
         <name>Pàdel Manyanet Reus</name>
-        <description><![CDATA[<img src="js/data/tenis/images/tennis-7.png" width="250px" width="auto" />]]></description>
+        <description><![CDATA[<img class="map__image" src="js/data/tenis/images/tennis-7.png" width="250px" width="auto" />]]></description>
         <styleUrl>#icon-1707-FFEA00</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">

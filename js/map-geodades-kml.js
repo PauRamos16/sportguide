@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //   }).addTo(map);
   // }
   
-  var mapa_c6 = document.querySelector('.map__wrap--c6');
+  var mapa_c6 = document.querySelector('.map__wrap--kml');
   if (mapa_c6) {
 
     /* create map */
@@ -33,21 +33,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /* add icon */
     const baseIcon = L.icon({
-      iconUrl: 'js/data/tenis/images/icon-1.png',
+      iconUrl: 'js/data/verds/images/icon-1.png',
       iconSize: [36, 36],
       iconAnchor: [16, 40],
       popupAnchor: [0, -28]
     });
     //console.log(baseIcon);
     var styles = {
-      color:'#FFEA00',
+      color:'#0F9D58',
       fillOpacity: 0.5,
-      fillColor: '#FFEA00'
+      fillColor: '#0F9D58'
     };
 
     /* kml */
     var geodades = '';
-    var url = 'js/data/tenis/doc.kml';
+    var url = 'js/data/verds/doc.kml';
     fetch(url)  //get the location with the new name of the saved file
       .then(res => res.text())
       .then(kmltext => {
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 layer.setIcon(baseIcon);
                 /* only layer marker */
                 layer.bindPopup(
-                  '<img src="icon.png" height="24"> Sportguide <br><br>'+
+                  '<img class="map__icon" src="icon.png" height="24"> Sportguide <br>'+
                   layer.feature.properties.description + '<br>'+
                   '<h2>' + layer.feature.properties.name+'</h2>');
             }
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
               layer.setStyle(styles);
 
               layer.bindPopup(
-                  '<img src="icon.png" height="24"> Sportguide <br><br>'+
+                  '<img class="map__icon" src="icon.png" height="24"> Sportguide <br>'+
                   '<h3><b>' + layer.feature.properties.name +'</b></h3>'+
                   layer.feature.properties.description);
             }
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
           map.fitBounds(bounds);
 
         var overlayMaps = {
-            "Espai tennis": track
+            "Espai verds": track
         };
 
         var layerControl = L.control.layers(baseMaps, overlayMaps,{position: 'topright',collapsed: false}).addTo(map);

@@ -53,6 +53,19 @@ ul.page__breadcrumb li a:hover {
 .page__description{
 	max-width: 900px;
 }
+.page__description img{
+ width: 100%;
+ max-width: 750px;
+ margin: 20px;
+}
+.page__description img.map__image {
+	margin: 5px;
+}
+
+.page__description img.map__icon {
+	margin: 5px;
+	width: 24px;
+}
 
 .page__content h2{
 	color: #3FA21C;

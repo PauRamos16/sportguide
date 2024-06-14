@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  var mapa_c5 = document.querySelector('.map__wrap--c5');
+  var mapa_c5 = document.querySelector('.map__wrap--json');
   if (mapa_c5) {
 
     /* create map */
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 /* only layer marker */
                 layer.bindPopup(
-                  '<img src="icon.png" height="24"> Sportguide <br><br>'+
+                  '<img class="map__icon" src="icon.png" height="24"> Sportguide <br><br>'+
                   layer.feature.properties.description + '<br>'+
                   '<h2>' + layer.feature.properties.Name+'</h2>')
             }
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
               console.log(layer.feature);
 
               layer.bindPopup(
-                  '<img src="icon.png" height="24"> Sportguide <br><br>'+
+                  '<img class="map__icon" src="icon.png" height="24"> Sportguide <br><br>'+
                   '<h3><b>' + layer.feature.properties.name +'</b></h3>'+
                   layer.feature.properties.description);
             }

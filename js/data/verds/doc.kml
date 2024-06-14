@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Espais Verds Reus</name>
+    <description/>
+    <Style id="icon-1546-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1546-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1546-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1546-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1546-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-0F9D58-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-0F9D58-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-558B2F-10106-nodesc-normal">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>10.106</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-558B2F-10106-nodesc-highlight">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>15.159</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-558B2F-10106-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-558B2F-10106-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-558B2F-10106-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-3801-125-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>3.801</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7d589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-3801-125-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>5.7015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7d589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-3801-125">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-3801-125-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-3801-125-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-4901-138-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>4.901</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>8a589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-4901-138-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>7.3515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>8a589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-4901-138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-4901-138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-4901-138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-5201-145-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>5.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>91589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-5201-145-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>7.8015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>91589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-5201-145">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-5201-145-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-5201-145-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-5701-138-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>5.701</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>8a589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-5701-138-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>8.5515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>8a589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-5701-138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-5701-138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-5701-138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-6301-133-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>6.301</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>85589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-6301-133-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>9.4515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>85589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-6301-133">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-6301-133-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-6301-133-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-7001-135-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>7.001</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>87589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-7001-135-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>10.5015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>87589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-7001-135">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-7001-135-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-7001-135-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sense títol</name>
+      <Placemark>
+        <name>Parc Sant Jordi</name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v1.jpeg" width="250px" width="auto" /><br>Avinguda de Sant Jordi, 2, 43201 Reus, Tarragona]]></description>
+        <styleUrl>#poly-0F9D58-3801-125</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuFNk0rl_8XUAmxaU1SvBwiy5zZ2qWXJL27zQrJHQBTFd8rrzYFpLSXMom_lMNqNBKUXENOyaZ9tdUUW6F-27E-Bhfw3NisRmNkqfxDnvkJUChs22ehWYwuFQaxrtIy_qRYkZV1Hk14ybptXkYxI76QOalzqasGcsXGkW0FJ-kfVaWWoRwu1bLvRbPG0fd9ML5CCGyDPKlz_ryHHxsNoaZhVdXfaXynSeBoP0n4JrhWZo47OCPuh9heVQyE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.1063027,41.1599904,0
+                1.1070108,41.1593765,0
+                1.1096287,41.1610728,0
+                1.1089206,41.161719,0
+                1.1063027,41.1599904,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Parc Sant Jordi</name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v1.jpeg" /><br>Avinguda de Sant Jordi, 2, 43201 Reus, Tarragona]]></description>
+        <styleUrl>#icon-1720-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuEVs5yf4myGJM21f_v16jxAY3UpIW8dwRwajWChipPG36S4_frO6JzwmWTgpXalHHvkvZW6n-q3kgGBXMI-invfHT8PHwjIFc0wq-TDpEPy_8hhHWTQXyrmyn0T6an8uq9ttDHGxlwb2E-AIdGc_Rz2ppkdIVg7SWsb1eXARN788uua6qDwsMVRhnM8A4aeG8apQIkHwopZvhYx0Y1rktMT2194oFEloYim2Z_4lJ8uPTku4KmZUUsDYrA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.1078879,41.1604916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Parc d'Europa]]></name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v2.jpeg" /><br>Plaça d'Europa, 43205 Reus, Tarragona]]></description>
+        <styleUrl>#poly-0F9D58-5201-145</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuEJq5ZoUGnv2_-2kIA84oF8O_TPK4dzPH3eRBinFkX8AyOPjVpxam173qXM78k9JLUP_5V_jnOyUnL8flljFUurhEQ5hWcp9cbP-yFlDeaQEwsEmtTdVxqwCXAY6AH6zPSUNJQNt7qzHFxOZGPzw0UJ4JN3ECh902Py8ZsLsoIXTA0H0IlGUihyhGZdQCJ9F5zrR6ELHHZaj8QIc2kxm-XIJGxuFeQ6xx4vC1c5EjXSKfWtRy19kO8g5ak?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.1110213,41.1460614,0
+                1.1103883,41.146532,0
+                1.1103722,41.1465623,0
+                1.1104071,41.146629,0
+                1.1099047,41.1469386,0
+                1.1097545,41.1469063,0
+                1.1096848,41.1468457,0
+                1.1096257,41.1467286,0
+                1.1095989,41.146571,0
+                1.1096043,41.1463812,0
+                1.1096472,41.146264,0
+                1.109776,41.1460418,0
+                1.1099208,41.145852,0
+                1.1100013,41.1458318,0
+                1.1110213,41.1460614,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Parc d'Europa]]></name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v2.jpeg" /><br>Plaça d'Europa, 43205 Reus, Tarragona]]></description>
+        <styleUrl>#icon-1720-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuHyXSVj40VjpNXuOrkArK6eNtuq3pn3MiOAyhvyX3SnXBxxI8rj5MlScjjuBpuOOEH-AWYmpn4fBYIihjuYRfiRu5vfcV9dw0SeMCUxgzreZ1k_MR1HOPq1TRHXaMEEBEoeIHY_i3I7sryNiSfAkoywQSR-iKTqj3RwF_eKkF-ZK8jUOmu8CERUL-GZ8eXmBTyHJgxp4Ec07_fMKCTQBclUAjW4VYgdyZ4mYmf7hgQSI9R8LGlfwQnZ6us?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.1101443,41.1463188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parc del Trenet</name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v3.jpeg" /><br>Av. dels Països Catalans, 209V, 43205 Reus, Tarragona]]></description>
+        <styleUrl>#poly-0F9D58-6301-133</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGgd0nRDxSwrkTcT773RYfzb-fUGBFH1hrL8gWEROHjieu1b8LI3LiRJS_P_mvwuFBTXqM33dHwpTrjUhIExEzE2MtZ8JcDKlzHXe2cbzy6JaW3GWn2KZCm3H7CgnE2voFTpI1ADoVWGOmxAjigOuyfz4teTZ2ArZOrbt0a8q4MqUXmX0-eybrFj712pDLp6pA9tOiiqxxIfj_bgNGISUsB-YKGjIA7XXr1q2NpsnHCo8PnYrRzRiffsCk?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.099284,41.1453348,0
+                1.0990802,41.1454641,0
+                1.0989246,41.1453913,0
+                1.0979054,41.1446844,0
+                1.0985706,41.1441592,0
+                1.0990212,41.1437997,0
+                1.0992036,41.143727,0
+                1.0993591,41.1437149,0
+                1.0995415,41.1437391,0
+                1.0996381,41.1437755,0
+                1.099622,41.1438239,0
+                1.099622,41.1439249,0
+                1.0995683,41.1440179,0
+                1.099284,41.1453348,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Parc del Trenet </name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v3.jpeg" /><br>Av. dels Països Catalans, 209V, 43205 Reus, Tarragona]]></description>
+        <styleUrl>#icon-1720-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuFmAlyoRrBTiNoTrfZLGFLYjdYXP7W1DaUYo3kFPFh_QPhA8cXKe9urC_KtzoEFXZWaIKZt-2Z0Jkc0HmHbe9NFP8y3A_UCYm2JCdZv_wW-ZPC0NG4kctK89sd2dbZ5mtfNKpQGFvCADdeyNWsriOU7j26xOy-jEtJmhO9-9E4CuIB3V899MpHHf25i_7sMBUMB7sPEZsQm0kPXFQg0iFhX1HHfaZb6Y2od_shZkt3WINgZe0q-ZcHo0Hc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.0988576,41.1446384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skatepark Reus</name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v4.webp" /><br>Carrer de la Ginesta, 20, 43206 Reus, Tarragona]]></description>
+        <styleUrl>#poly-0F9D58-5701-138</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGIIZKeJTL2odOHXnBUdFDHJJX8XhEpyrCtqlWWOI5QIdKjSBulSn4W1C-IRcP1AhLMzSGrTp_jTvqXAxW-Bvb1z6kvF3X9zI2Ysgb5ZZqZT2hbw2ESZ3eBA-P0j-YKOrzahSGFNVZwz1QCeCPjtt8DL_P4emrucE-fPUYtotV8zSFTj1SMWX4knuUEVlzD9RdkXOX1DOkPTxURTwFNyIimmEhHojqrckYApX14-rlckL9U5gbNgswxqZ0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.091823,41.1529596,0
+                1.0914207,41.1528586,0
+                1.091131,41.1526849,0
+                1.0909701,41.1524102,0
+                1.0913134,41.1523092,0
+                1.0917265,41.1520952,0
+                1.0936577,41.1519538,0
+                1.0939527,41.1522567,0
+                1.0939527,41.1524021,0
+                1.0938293,41.1527212,0
+                1.093706,41.1531817,0
+                1.093706,41.1535008,0
+                1.0938025,41.1538886,0
+                1.0933036,41.153933,0
+                1.093089,41.1537876,0
+                1.0928637,41.1534685,0
+                1.091823,41.1529596,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Skatepark Reus</name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v4.webp" /><br>Carrer de la Ginesta, 20, 43206 Reus, Tarragona]]></description>
+        <styleUrl>#icon-1720-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuHewfQPy_S6kB0-e62h1TFbRXeMUHtogBboCjGTFIQe34-vZ-cEra46AnF3f682e1HCBJ8cEkRwwa9GteVCssY_PGJu6q7y16z7ogg_oBXVnFAzWCH0rU1QHjQbdmdILsppTEX1Nffs8YsNdJPwp2edEqHH-nXS2VcFeih33GNDjjEmjcd5WW6nw9OWtxJVj8TsWTS9zJ5OGvrysIELhL592DsSxGn_68IKF1pV2ySys5DjksEuSK8ypZ4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.0926764,41.1525991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parc Gandhi </name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v5.jpeg" /><br>Carrer Pare Joaquim Roig S.F., 10, 43202 Reus, Tarragona]]></description>
+        <styleUrl>#poly-0F9D58-4901-138</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGZ0D0d5F10JmfEBo_YH8KttlXPbFEHZrgEkWV76KcLxeTPQPwKmMsV4G8iSqt-iRmoTE3ggWD0jgg_LpsIgdmvAjuDTZMmkOM8TQUHZgyPw3fRbMLvFdBmu7oY_SJpbR2raCM6t69QuY1wiIMLoa563Q5myUZZxmii-5dtFwnW1mAL5Vh6wwHy24v4mlbQBMkJ4vuU5Na7Idn_NHAtrqZEQ7RIF7SqTvyRqJdm52T6_HbCXL1k980o7a4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.0985218,41.1492685,0
+                1.0985916,41.1489514,0
+                1.0989537,41.1489615,0
+                1.0992353,41.1489372,0
+                1.0994445,41.1488766,0
+                1.0997342,41.1487454,0
+                1.0998683,41.1486625,0
+                1.1004101,41.1490261,0
+                1.1001741,41.1492321,0
+                1.1001339,41.1492038,0
+                1.1001017,41.1492745,0
+                1.1000078,41.1492705,0
+                1.0999407,41.1494159,0
+                1.0997315,41.1493775,0
+                1.0997315,41.1494098,0
+                1.0996564,41.1495593,0
+                1.0994526,41.1495088,0
+                1.0993614,41.1496865,0
+                1.0987847,41.149531,0
+                1.0987445,41.1494321,0
+                1.0986855,41.149325,0
+                1.0985835,41.1492745,0
+                1.0985218,41.1492685,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Parc Gandhi</name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v5.jpeg" /><br>Carrer Pare Joaquim Roig S.F., 10, 43202 Reus, Tarragona]]></description>
+        <styleUrl>#icon-1720-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuFPeemOFwYEbXyrBe3E_S8CZhe4Tur-64efGB5WJKgji1S7XOjVaT36vLlL4NLTl2-7A7eABmnrH56cmVTfrCmmp88L73VPXDL_DOBaYzAHdIPYCjC63g67OESz63087kIxSfvKp03UjUrZn3Uk8YA3EGWPNNT5cSszcoq-fl_cbp9-xMAHBXktp4Jfggb9cgGrvLZCUFmawPAf-KTkPBj2ityGJt1lh595KK4oqmNC406zrNW65CIw1b8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.099394,41.1491788,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parc Claudi Tricaz</name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v1.jpeg" /><br>Carrer de Ricard Artiga i Esplugas, 12, 43205 Reus, Tarragona]]></description>
+        <styleUrl>#poly-0F9D58-7001-135</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuEc4qY-lUBr8mphmlH2D0XVGLHnQcN-MgDp-722vDMuH8QEH0tSVD2xxmzAfaKKRe4eJZLEPtP5KE_KlBdiQvjHBwkPDlOkLv-2-l3f0katllPR8yOkMoSYh-rdpfuVpdD8kkxm9UN-BOTAwpeJEH4k05L4Z03Lj-4nUCMBu_s8uGbve1xWn7xy4EVacsDiwlG71xdsRxMTpTL7xoEEurf0YDShDzvW7B--UflByWG_GxLNJbKCIKo_VLU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.101097,41.1489331,0
+                1.1011936,41.1486786,0
+                1.101392,41.1484605,0
+                1.1020304,41.1480606,0
+                1.102996,41.1488563,0
+                1.102819,41.1489614,0
+                1.1021645,41.1489331,0
+                1.1014618,41.1489856,0
+                1.1012526,41.149026,0
+                1.101097,41.1489331,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Parc Claudi Tricaz</name>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v1.jpeg" /><br>Carrer de Ricard Artiga i Esplugas, 12, 43205 Reus, Tarragona]]></description>
+        <styleUrl>#icon-1720-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuF1UA_6D-qyhOtbNUjrqQJP2UcP44v_DBJ1gHuvmkjnAkUea5eBiHI4p3Fj4kn6TEfwawK4Ld7_Hc7i7B9OstcVDpAQlxw50dD63s56LIzEYreeHi_qVZby1XVsFgcgR3AMYlFT4JiCgMakDh9tCUCxRa8bkTewjMtvk_h6ImcGH8-gCoVQ-QgiKPrWPcLTbhDZUN8ZWhEwRvbjjsjW1KREWaaGZ25OA45MhB_N5g3giNLwvME7TBFcx5Y?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.1019475,41.1485325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      
+    </Folder>
+  </Document>
+</kml>
