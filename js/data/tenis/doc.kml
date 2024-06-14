@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tennis I Pedal Reus</name>
+    <description/>
+    <Style id="icon-1707-FFEA00-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1707-FFEA00-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1707-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1707-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1707-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-4301-112-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>4.301</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7000eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-4301-112-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>6.4515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7000eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-4301-112">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-4301-112-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-4301-112-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-4901-117-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>4.901</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7500eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-4901-117-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.3515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7500eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-4901-117">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-4901-117-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-4901-117-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-5001-97-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.001</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>6100eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-5001-97-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.5015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>6100eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-5001-97">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-5001-97-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-5001-97-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-5101-77-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.101</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-5101-77-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.6515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-5101-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-5101-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-5101-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-5201-145-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>9100eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-5201-145-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.8015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>9100eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-5201-145">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-5201-145-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-5201-145-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-5901-110-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.901</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>6e00eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-5901-110-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.8515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>6e00eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-5901-110">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-5901-110-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-5901-110-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-7201-115-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7300eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-7201-115-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>10.8015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7300eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-7201-115">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-7201-115-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-7201-115-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Tennis I Padel</name>
+      <Placemark>
+        <name>Club Tennis Monterols</name>
+        <description><![CDATA[ <p>3 pistes de tennis i 4 de padel ;)</p> ]]></description>
+        <styleUrl>#poly-FFEA00-5201-145</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[3 pistes de tennis i 4 de padel ;) ]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.0970357,41.1380104,0
+                1.0965636,41.1382851,0
+                1.0970786,41.1388265,0
+                1.0949436,41.139582,0
+                1.0944769,41.1390002,0
+                1.0950884,41.1386568,0
+                1.0941067,41.1376023,0
+                1.0947183,41.1368751,0
+                1.0953727,41.1365963,0
+                1.0970357,41.1380104,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Club Tennis Monterols</name>
+        <!-- <description><![CDATA[<img src="js/data/tenis/images/t1.jpg" height="100" width="auto" />]]></description> -->
+        <description><![CDATA[<img src="js/data/tenis/images/tennis-1.png" width="250px" width="auto" />]]></description>
+        <styleUrl>#icon-1707-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[js/data/tenis/images/tennis-1.png]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.0956489,41.1379542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tennis Pàdel Reus Deportiu</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGHsNbK71Vh-LDmIFwo6afe1K9Bj3Vrk5TqqJPUEC2FbuqhQPzlimS0M4_JYIJ2HmV9okGRK8uALdkp6JIHrAmwcU0JKr4SU2TDJdTRsrME08ep6aBz0YYLcvq5G8FR5JYcxHcQnF7H7Jd4hfiU45XabztXgV5Yy8Mtn-RboCJ130MKGn5oadVoQO1lkEbr1O6-4LhIr7Iiv2pszGy8lNO29_ZugPFsU-P6sL8p1umJv9RrOzvrb5s2rIA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#poly-FFEA00-5101-77</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGHsNbK71Vh-LDmIFwo6afe1K9Bj3Vrk5TqqJPUEC2FbuqhQPzlimS0M4_JYIJ2HmV9okGRK8uALdkp6JIHrAmwcU0JKr4SU2TDJdTRsrME08ep6aBz0YYLcvq5G8FR5JYcxHcQnF7H7Jd4hfiU45XabztXgV5Yy8Mtn-RboCJ130MKGn5oadVoQO1lkEbr1O6-4LhIr7Iiv2pszGy8lNO29_ZugPFsU-P6sL8p1umJv9RrOzvrb5s2rIA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.1110892,41.1671917,0
+                1.110601,41.1670624,0
+                1.1107083,41.1668565,0
+                1.1104213,41.1667797,0
+                1.110778,41.1661215,0
+                1.1115371,41.1663153,0
+                1.1113413,41.166699,0
+                1.1110892,41.1671917,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Tennis Pàdel Reus Deportiu</name>
+        <description><![CDATA[<img src="js/data/tenis/images/tennis-2.png" width="250px" width="auto" />]]></description>
+        <styleUrl>#icon-1707-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGDwC6Dfvz_STjpLSsko1GdLUsimJPONHkljFNy6TqP9eKigXdgQtFcXHVuzbvRJFZaINKhhIHmPVMr-EWtI67XpEikGitipe1lITmyxcQ-muyKzTMq8AxtwKj-Swc58Nqf2gE8DAbSX299GELoC6b8rH9yP0symuguXvSHAXV9Xa9yO84SdfyroYUURbvAc2xCH6XyF-uUA-i52RwhZiam7VtYRdx61HegVugg-UPGh-IexK4EgqzpjtE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.1109753,41.1665726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pàdel indoor Reus</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuG5t3LvRa8DqG9xEFyDGdecCi92GYiMkeczOz1sVaHZ_OxBZCUKy_CsO6_WfNm8oNjER3cW64mVwF5qj673i_ksMbZXWA8MRORBRdBIikwB0h0ruGSV3vBWr_3TJ8ZggcHsfX7o1Wy7LbsqpqUHqL-2eg5-b9ad55LUeo_6T3dpUo-QQAfzpCAcyp3XXFUCgcT_xlkSDrJR3rnvIP7O8Zgit0RHKNq2AzDuPvtmMASoBobKsgeH4xX-emE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#poly-FFEA00-4301-112</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuG5t3LvRa8DqG9xEFyDGdecCi92GYiMkeczOz1sVaHZ_OxBZCUKy_CsO6_WfNm8oNjER3cW64mVwF5qj673i_ksMbZXWA8MRORBRdBIikwB0h0ruGSV3vBWr_3TJ8ZggcHsfX7o1Wy7LbsqpqUHqL-2eg5-b9ad55LUeo_6T3dpUo-QQAfzpCAcyp3XXFUCgcT_xlkSDrJR3rnvIP7O8Zgit0RHKNq2AzDuPvtmMASoBobKsgeH4xX-emE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.1217583,41.1613589,0
+                1.1219997,41.1609873,0
+                1.1225576,41.1612013,0
+                1.1223215,41.1615527,0
+                1.1217583,41.1613589,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Pàdel Indoor Reus</name>
+        <description><![CDATA[<img src="js/data/tenis/images/tennis-3.png" width="250px" width="auto" />]]></description>
+        <styleUrl>#icon-1707-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGsg2U_6uWGSpxqq5D472UwfleRxPlaHr3B4_4vlTYjGalsXsq69RCxfKk941PRfuHUJkz8FonW_vg6R1g9AJgg5pcbxTdxeThuktoNNDHHvnoamiqES4LLCleEoFeczq1YSHQ14Rya_6oGa0rZcvC2g4ZLAjXSTT6JrfslsTJsDWLxTCAQiWRadMjacCpJvaDquZYIH1etfC34Jl8kJcl4b7Ko-DrgGfwcWuSlXxfjlKiphc0TNuQ2R1c?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.1221532,41.1612704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Padelx4 Reus</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuFk31NH_derd7T5b6eKY3T4Y8VnuUOo5NrTP12v5Sa5aBxJmehFBFLgu0S6QfP6C9ix5_UbIhW80VV_XgdVdmb3f0vr4tv5Jz5zX9dXUp-CD8sO2G9cx6raOWwJMrtsrF_VvSqhuEH_U2FEKhwvO9xkYd4DoODMKs5yxgS92jJod2YHLV-Lm4uL8h4bJUQbrbE_gvoqUJZcJhQUAsSlBd6kJewvS9GcEWXbq4yVS6rAqhHt99mke0yG-UM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#poly-FFEA00-5001-97</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuFk31NH_derd7T5b6eKY3T4Y8VnuUOo5NrTP12v5Sa5aBxJmehFBFLgu0S6QfP6C9ix5_UbIhW80VV_XgdVdmb3f0vr4tv5Jz5zX9dXUp-CD8sO2G9cx6raOWwJMrtsrF_VvSqhuEH_U2FEKhwvO9xkYd4DoODMKs5yxgS92jJod2YHLV-Lm4uL8h4bJUQbrbE_gvoqUJZcJhQUAsSlBd6kJewvS9GcEWXbq4yVS6rAqhHt99mke0yG-UM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.1222337,41.1598467,0
+                1.1217643,41.1596307,0
+                1.1222337,41.1592167,0
+                1.122805,41.1595055,0
+                1.122349,41.1597296,0
+                1.1222337,41.1598467,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Padelx4 Reus</name>
+        <description><![CDATA[<img src="js/data/tenis/images/tennis-4.png" width="250px" width="auto" />]]></description>
+        <styleUrl>#icon-1707-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGy4sn0mqwTgnIdfGE8MDE1ugKfY0aw7yBPB4MDgCKwNF-i-jVViQLF6rLYiE2O6bBV6TiKUEEChban_5pn-mmm9KK_u9MDxItP8PKuxoVjIfLjqyg2Et4kV-45lHa_UcWPt3diUmUWsG18pPUImWBpZ3BLfQjb6WcbC-sMvBTYHXuSmY3jPQjnNxFv1OngU0bD41kSyLs8dAHXUPWJQAUqhUIE-rPJ-zKRDlyLuIeIEF69wL2M0Cu4dko?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.1222605,41.1595419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winner Sport</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuHm8NhIsHkwDGpq6U90tnVsJCGPkbGjcKZul2x7LH8MJXaj-jr7KF-B1twYIqu7kE1LczzpMjwYbpUoS7R6-W0k8tcjp8xIO37d7WviuBX0en5FykRDd5Wunw-VxNdTYdZqfsztjc4L4zo5-jURpFq-vu9K10IMKf6Q_V_7Klr5Tt5lYd5MFRS6_SRXE5N2vh30Vu91zL-xCTUF8FmrYE6n5hR8KU8jliWBv0lmFSM3X_yaOVMnaSDnGro?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#poly-FFEA00-7201-115</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuHm8NhIsHkwDGpq6U90tnVsJCGPkbGjcKZul2x7LH8MJXaj-jr7KF-B1twYIqu7kE1LczzpMjwYbpUoS7R6-W0k8tcjp8xIO37d7WviuBX0en5FykRDd5Wunw-VxNdTYdZqfsztjc4L4zo5-jURpFq-vu9K10IMKf6Q_V_7Klr5Tt5lYd5MFRS6_SRXE5N2vh30Vu91zL-xCTUF8FmrYE6n5hR8KU8jliWBv0lmFSM3X_yaOVMnaSDnGro?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.1198086,41.1615517,0
+                1.1198595,41.161374,0
+                1.1201573,41.1612993,0
+                1.1204282,41.1614245,0
+                1.120219,41.1617112,0
+                1.1198086,41.1615517,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Winner Sport</name>
+        <description><![CDATA[<img src="js/data/tenis/images/tennis-5.png" width="250px" width="auto" />]]></description>
+        <styleUrl>#icon-1707-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuFWtwY-_NUm8fkQB96cXI57ZglZIKd0k2GzFAy2gyDdvfQuApwrXjY60Zw86Bo2CduVdbxl_0LRP3tKHUf2pXvKGWMKQbzlBDMz9JvIJPmIrUCbH-NcOtiSm3zfocht0NtUviInuXVLFB1CIpA9gO1qF-dckVgWTj5vzl1UgMFc_Mrv4IjViC8-1t0SVGot4vCdY6soES6lUxd4XBFRhiq6PyrDJgPVz0gxwZ8L3nTw4hu3qRoYExMsxj4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.1201362,41.1614966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tennis i Pàdel Reus Ploms</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGy1r-grDMXf_jioZ4wS32ACGy1FV5kgGgdt1KRbJeVcvv3ldWPGnFNt_nPVI4iEW971VHSlg8rKbyQN5w_RcvfoMOR1CMP69rqh7w0EuLiFX2Rmro33W3LeI20EXRGrKWJdODa2l4ZonDTE7pjaGvtTk0CwzJWAuSi2ResdSIT7bRvr0vpwe7x2VozSWJRFH9Cp6MipH2V6xwAvoBiDxhxaXOEtVUB6HdnhdwGm2ROzrw5RcI5WxGQ1X0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#poly-FFEA00-4901-117</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGy1r-grDMXf_jioZ4wS32ACGy1FV5kgGgdt1KRbJeVcvv3ldWPGnFNt_nPVI4iEW971VHSlg8rKbyQN5w_RcvfoMOR1CMP69rqh7w0EuLiFX2Rmro33W3LeI20EXRGrKWJdODa2l4ZonDTE7pjaGvtTk0CwzJWAuSi2ResdSIT7bRvr0vpwe7x2VozSWJRFH9Cp6MipH2V6xwAvoBiDxhxaXOEtVUB6HdnhdwGm2ROzrw5RcI5WxGQ1X0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.1156659,41.1527699,0
+                1.1157195,41.1526144,0
+                1.1164437,41.1524124,0
+                1.1165859,41.152681,0
+                1.1170204,41.1525801,0
+                1.1172725,41.1531556,0
+                1.1167468,41.1533152,0
+                1.1163901,41.153505,0
+                1.1156659,41.1527699,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Tennis i Pàdel Reus Ploms</name>
+        <description><![CDATA[<img src="js/data/tenis/images/tennis-6.png" width="250px" width="auto" />]]></description>
+        <styleUrl>#icon-1707-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuFY907yEiK2woFUu5HXsZimNMKe-7YlLRrhUWLu4rGVOr83WyplQfQv_UuSXfa4oa3qtelJH5FCIFTGrGPMRZ6QdTDzhScQhJQE8weNPmZlveMBKcgJoHCaaoiR7Z08t102zaxXw7dW8zAN20_myqT82cF0ihP8-PUOM9TDpzn3GSrVcapa1CDaSoCTIX9IdpiNwD1n0pjMmlRHpQPTlQZDFl0gjSPWacSMK5WeZ2PUKtOMkAj_Byz6Tak?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.1164627,41.1530541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pàdel Manyanet Reus</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGfZlmub7JPPzhs-Dg8-I9_ylQYjN7w4wY9Q7PXGBlMZKnTXHONLG9GXUFbpG4estrcZx5Kf1l2SXSkE-pUw38o00Hy-ni4IIKHSgN4drZfGg1jNxYIK2LyF_Y2wmcd8TU1R_0aFsFZnyWUbOgPrH9xK6uiMx_7bD9eF2pAoruFvMkPNATIkub_0HLqf9fmu5ZHISNhWpNal6vVI7Mqilm3F4nUF0Sh9QDVkD0bQN8AtKWJeLqh0vyoNaA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#poly-FFEA00-5901-110</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuGfZlmub7JPPzhs-Dg8-I9_ylQYjN7w4wY9Q7PXGBlMZKnTXHONLG9GXUFbpG4estrcZx5Kf1l2SXSkE-pUw38o00Hy-ni4IIKHSgN4drZfGg1jNxYIK2LyF_Y2wmcd8TU1R_0aFsFZnyWUbOgPrH9xK6uiMx_7bD9eF2pAoruFvMkPNATIkub_0HLqf9fmu5ZHISNhWpNal6vVI7Mqilm3F4nUF0Sh9QDVkD0bQN8AtKWJeLqh0vyoNaA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                1.0991935,41.1465571,0
+                1.0998319,41.1462037,0
+                1.1003174,41.1466198,0
+                1.0997541,41.1470237,0
+                1.0991935,41.1465571,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Pàdel Manyanet Reus</name>
+        <description><![CDATA[<img src="js/data/tenis/images/tennis-7.png" width="250px" width="auto" />]]></description>
+        <styleUrl>#icon-1707-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AFclZuH_8o_YBza-KsHbMST0UzWrGlvuv0ErXJj7oO_8Uvljd4EQveyG-jY9iNg4sDeVHpFgrfKFOf7E59PDYScwKjDKQ2PlL8nLMp6ZykaKSQvftFsjbY-AfnYIo_LyrgNwdglAGgcOTuFFL2HT9IYcpi0M2zvEK4zZLIrT3y7vVuJmZXdIfrSk2aw9fW6gGaq6X6EvJSS09uVP15SCKT1b_u2y6bj8e3gsC2AUyPoMKQre2Lbv1uvMNwChizg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.0998117,41.1466802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

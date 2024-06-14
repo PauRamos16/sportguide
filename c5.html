@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Espais Verds | SportGuide | Reus</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/espais.css">
+  <link rel="stylesheet" href="css/novetats.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="favicon.png" sizes="any">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+ 
+ <main>
+
+    <!-- header -->
+    <div w3-include-html="include/header.html"></div>
+    <!-- end header -->
+
+    <!-- section content -->
+    <div class="section__content">
+      <ul class="page__breadcrumb">
+        <li><a href="index.html">Inici</a></li>
+         <li>Tennis (geojson)</li>
+       
+      </ul>
+      <article>
+        <header class="page__header">
+          <h1 class="page__title">Espais Verds</h1>
+          <p class="page__subtitle">
+            <img class="espai__image" src="img/sports/location-3.svg"> |
+            <span class="espai__category">Espais verds</span> |  
+            <span class="espai__type">Públic</span>
+          </p>
+          
+          <div class="slider__wrap">
+            <img class="slider__image" src="img/slider/slider-1.jpg">
+            <img class="slider__image" src="img/slider/slider-2.jpg">
+            <img class="slider__image" src="img/slider/slider-3.jpg">
+          </div> 
+        </header>
+        <div class="page__content">
+          <div class="page__description">
+            <h2>Espais Verds Públics</h2>
+            <p>Halvah chocolate cake croissant shortbread apple pie. Chocolate bar tootsie roll wafer brownie donut candy canes lemon drops muffin chupa chups. Bonbon ice cream apple pie halvah bonbon gummies.</p>
+
+            <p>Pie bonbon wafer cheesecake icing powder pudding sugar plum. Marshmallow jujubes candy marzipan brownie. Biscuit fruitcake liquorice chocolate bar tootsie roll shortbread pastry.</p>
+
+            <h2>Plaça José Monzón al Barrri Montserrat</h2>
+            <p>Marzipan ice cream dragée donut shortbread tart. Soufflé cookie pudding toffee lollipop biscuit cupcake. Apple pie oat cake liquorice liquorice donut cupcake wafer chocolate bar. Wafer soufflé gingerbread pie cake sugar plum sugar plum.</p>
+
+            <p>Oat cake carrot cake cookie apple pie carrot cake lemon drops tootsie roll. Jelly beans soufflé donut sesame snaps muffin candy canes. Chupa chups sweet roll cake gummies shortbread chupa chups dragée sweet. Halvah carrot cake donut brownie donut chocolate bar topping jujubes sweet roll.</p>
+          
+            <h3>Recursos multimèdia</h3>
+            <div class="map__wrap--c5">
+              <div id="map"></div>
+            </div>
+            
+          </div>
+
+        </div>
+
+        <footer class="page__footer">
+          <div class="user__wrap">
+            <img class="user__avatar" src="img/social/iconmonstr-user.svg">
+            <div class="user__content">
+              <span class="user__name">Pau Ramos Llauradó</span>
+              <span class="user__text">Geògraf i cofundador de SportGuide</span>
+            </div>
+          </div>
+        </footer>
+      </article>
+    </div>
+    <!-- end section -->
+
+    <!-- Footer -->
+    <div w3-include-html="include/footer.html"></div>
+    <!-- end footer -->
+
+  </main>
+  <!-- ini scripts -->
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script src="js/app.js"></script>
+    <script src="js/map-geodades-json.js"></script>
+  <!-- end scripts -->
+</body>
+
+</html>
