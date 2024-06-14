@@ -22,7 +22,30 @@ document.addEventListener("DOMContentLoaded", () => {
         maxZoom: 19,
         attribution: '&copy; Catalunya: Institut Cartogràfic i Geològic de Catalunya <a href="https://openicgc.github.io/">IGCC</a>'
     }).addTo(map);
+
+    var verds = L.geoJson(null);
+    // $.getJSON("data/espais-verds.geojson", function (data) {
+    //   verds.addData(data);
+    // });
+
+    fetch("data/espais-verds.geojson") // Call the fetch function passing the url of the API as a parameter
+      .then(res => res.json())
+      .then(function (res) {
+        console.log(res);
+        verds.addData(res);
+        // Your code for handling the data you get from the API
+      })
+      .catch(function() {
+        // This is where you run code if the server returns any errors
+      });
+    
+    
+    verds.addTo(map);
+  
+
+
   }
+
   
   
 });

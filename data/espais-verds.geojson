@@ -1,0 +1,67 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Plaça del Mercadal",
+                "type": "plaza"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [1.106869, 41.156188]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Parc de Sant Jordi",
+                "type": "park"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[
+                    [1.107745, 41.155207],
+                    [1.108703, 41.154937],
+                    [1.108056, 41.154113],
+                    [1.107140, 41.154396],
+                    [1.107745, 41.155207]
+                ]]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Plaça de la Llibertat",
+                "type": "plaza"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[
+                    [1.110879, 41.153644],
+                    [1.111889, 41.153355],
+                    [1.111318, 41.152556],
+                    [1.110307, 41.152839],
+                    [1.110879, 41.153644]
+                ]]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Parc del Trenet",
+                "type": "park"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[
+                    [1.102899, 41.151623],
+                    [1.103866, 41.151348],
+                    [1.103318, 41.150525],
+                    [1.102332, 41.150801],
+                    [1.102899, 41.151623]
+                ]]
+            }
+        }
+    ]
+}
