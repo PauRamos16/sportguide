@@ -297,7 +297,7 @@
       <name>Capa sense títol</name>
       <Placemark>
         <name>Parc Sant Jordi</name>
-        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v1.jpeg" width="250px" width="auto" /><br>Avinguda de Sant Jordi, 2, 43201 Reus, Tarragona]]></description>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v7.jpeg" width="250px" width="auto" /><br>Avinguda de Sant Jordi, 2, 43201 Reus, Tarragona]]></description>
         <styleUrl>#poly-0F9D58-3801-125</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -321,7 +321,7 @@
       </Placemark>
       <Placemark>
         <name>Parc Sant Jordi</name>
-        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v1.jpeg" /><br>Avinguda de Sant Jordi, 2, 43201 Reus, Tarragona]]></description>
+        <description><![CDATA[<img class="map__image" src="js/data/verds/images/v7.jpeg" /><br>Avinguda de Sant Jordi, 2, 43201 Reus, Tarragona]]></description>
         <styleUrl>#icon-1720-0F9D58</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">

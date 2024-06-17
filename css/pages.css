@@ -58,7 +58,8 @@ ul.page__breadcrumb li a:hover {
  max-width: 750px;
  margin: 20px;
 }
-.page__description img.map__image {
+.page__content img.map__image {
+	width: 100%;
 	margin: 5px;
 }
 

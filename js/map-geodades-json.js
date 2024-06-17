@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var map = L.map('map').setView([41.1438632, 1.1106476], 13);
     var baseMap = L.tileLayer('https://geoserveis.icgc.cat/servei/catalunya/contextmaps/wmts/contextmaps-mapa-estandard/MON3857NW/{z}/{x}/{y}.png', {
         maxZoom: 19,
-        attribution: '&copy; Catalunya: Institut Cartogràfic i Geològic de Catalunya <a href="https://openicgc.github.io/">IGCC</a>'
+        attribution: '&copy; Catalunya: Institut Cartogràfic i Geològic de Catalunya <a href="https://openicgc.github.io/">ICGC</a>'
     });
 
     
